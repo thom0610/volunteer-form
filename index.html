@@ -22,25 +22,25 @@
         <fieldset>
           <legend>Personal details</legend>
           <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="name">Full name</label>
               <input id="name" name="name" required>
               <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="nickname">What should we call you?</label>
               <input id="nickname" required>
               <p>What all your friends call you, e.g. “Liz”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="date-of-birth">Date of birth</label>
               <input type="date" id="date-of-birth" name="date" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="t-shirt-size">T-shirt size</label>
               <select id="t-shirt-size" name="t-shirt-size">
                 <option>Select a t-shirt size</option>
-                <option>Fitted: XS</option>
+                <option value="size-xs">Fitted: XS</option>
                 <option>Fitted: S</option>
                 <option>Fitted: M</option>
                 <option>Fitted: L</option>
@@ -52,11 +52,11 @@
                 <option>Straight-cut: XL</option>
               </select>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
               <label for="phone-number">Phone number (optional)</label>
               <input type="number" id="phone-number" name="phone-number">
             </div>
@@ -64,18 +64,20 @@
         </fieldset>
       </div>
 
+      <hr>
+
       <fieldset>
         <legend>Address</legend>
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <label for="address">Street address</label>
             <input id="address" name="address" required>
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <label for="city">City</label>
             <input id="city" name="city">
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <label for="province">Province</label>
             <select id="province" name="province">
               <option>Select a province</option>
@@ -94,7 +96,7 @@
               <option>Yukon</option>
             </select>
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <label for="postal-code">Postal code</label>
             <input id="postal-code" name="postal-code">
           </div>
@@ -102,44 +104,44 @@
       </fieldset>
 
       <fieldset>
-        <legend>What activities are you interested in helping with?</legend>
+        <label>What activities are you interested in helping with?</label>
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="digging-holes" type="checkbox" name="activities">
             <label for="digging-holes">Digging holes</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="getting-dirty" type="checkbox" name="activities">
             <label for="getting-dirty">Getting dirty</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="lifting-heavy-objects" type="checkbox" name="activities">
             <label for="lifting-heavy-objects">Lifting heavy objects</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="driving-people" type="checkbox" name="activitiese">
             <label for="driving-people">Driving people</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="transporting-trees" type="checkbox" name="activities">
             <label for="transporting-trees">Transporting trees</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="taking-photos" type="checkbox" name="activities">
             <label for="taking-photos">Taking photos</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="online-publishing" type="checkbox" name="activities">
             <label for="online-publishing">Online publishing</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="managing-people" type="checkbox" name="activities">
             <label for="managing-people">Managing people</label>
           </div>
@@ -147,55 +149,55 @@
       </fieldset>
 
       <fieldset>
-        <legend>Do you have any experience with the following?</legend>
+        <label>Do you have any experience with the following?</label>
 
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="shovels" type="checkbox" name="experience">
             <label for="shovels">Shovels</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="hand-held-gps" type="checkbox" name="experience">
             <label for="hand-held-gps">Hand-held GPS</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="writing-&-blogging" type="checkbox" name="experience">
             <label for="writing-&-blogging">Writing & blogging</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="photography" type="checkbox" name="experience">
             <label for="photography">Photography</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="trail-&-hill-climbing" type="checkbox" name="experience">
             <label for="trail-&-hill-climbing">Trail & hill climbing</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="bush-craft" type="checkbox" name="experience">
             <label for="bush-craft">Bush craft</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="atvs" type="checkbox" name="experience">
             <label for="atvs">ATVs</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="plant-identification" type="checkbox" name="experience">
             <label for="plant-identification">Plant identification</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="special-event-planning" type="checkbox" name="experience">
             <label for="special-event-planning">Special event planning</label>
           </div>
 
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <input id="speaking-to-groups" type="checkbox" name="experience">
             <label for="speaking-to-groups">Speaking to groups</label>
           </div>
