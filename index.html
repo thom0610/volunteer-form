@@ -22,21 +22,21 @@
       <fieldset>
         <legend>Personal details</legend>
         <div class="grid">
-          <div class="unit">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
             <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
-          <div class="unit">
-            <label for="name">What should we call you?</label>
-            <input id="name" required>
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+            <label for="nickname">What should we call you?</label>
+            <input id="nickname" required>
             <p>What all your friends call you, e.g. “Liz”.</p>
           </div>
-          <div class="unit">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             <label for="date">Date of birth</label>
             <input type="date" id="date-of-birth" name="date" required>
           </div>
-          <div class="unit">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             <label for="t-shirt-size">T-shirt size</label>
             <select id="t-shirt-size" placeholder="Select a t-shirt size" name="t-shirt-size" required>
               <option>Select a t-shirt size</option>
@@ -52,11 +52,11 @@
               <option>Straight-cut: XL</option>
             </select>
           </div>
-          <div class="unit">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             <label  for="email">Email</label>
             <input type="email" id="email" name="email" required>
           </div>
-          <div class="unit">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
             <label for="phone-number">Phone number (optional)</label>
             <input type="number" id="phone-number" name="phone-number">
           </div>
@@ -64,18 +64,18 @@
       </fieldset>
     </div>
 
-    <div>
+    <div class="grid">
       <fieldset>
         <Legend>Address</legend>
-        <div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
           <label for="address">Street address</label>
           <input id="address" name="address" required>
         </div>
-        <div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
           <label for="city">City</label>
           <input id="city" name="city">
         </div>
-        <div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
           <label for="province">Province</label>
           <select id="province" placeholder="Select a province" name="province" required>
             <option>Select a province</option>
@@ -94,94 +94,102 @@
             <option>Yukon</option>
           </select>
         </div>
-        <div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
           <label for="postal-code">Postal code</label>
           <input id="postal-code" name="postal-code">
         </div>
       </fieldset>
     </div>
 
-    <div>
+    <div class="grid">
       <fieldset>
         <p>What activities are you interested in helping with?</p>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <input id="digging-holes" type="checkbox" name="activities">
+          <label for="digging-holes">Digging holes</label>
 
-        <input id="digging-holes" type="checkbox" name="digging-holes">
-        <label for="digging-holes">Digging holes</label>
+          <input id="getting-dirty" type="checkbox" name="activities">
+          <label for="getting-dirty">Getting dirty</label>
 
-        <input id="lifting-heavy-objects" type="checkbox" name="lifting-heavy-objects">
-        <label for="lifting-heavy-objects">Lifting heavy objects</label>
+          <input id="lifting-heavy-objects" type="checkbox" name="activities">
+          <label for="lifting-heavy-objects">Lifting heavy objects</label>
 
-        <input id="driving-people" type="checkbox" name="driving-people">
-        <label for="driving-people">Driving people</label>
+          <input id="driving-people" type="checkbox" name="activitiese">
+          <label for="driving-people">Driving people</label>
+        </div>
 
-        <input id="transporting-trees" type="checkbox" name="transporting-trees">
-        <label for="transporting-trees">Transporting trees</label>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+          <input id="transporting-trees" type="checkbox" name="activities">
+          <label for="transporting-trees">Transporting trees</label>
 
-        <input id="taking-photos" type="checkbox" name="taking-photos">
-        <label for="taking-photos">Taking photos</label>
+          <input id="taking-photos" type="checkbox" name="activities">
+          <label for="taking-photos">Taking photos</label>
 
-        <input id="online-publishing" type="checkbox" name="online-publishing">
-        <label for="online-publishing">Online publishing</label>
+          <input id="online-publishing" type="checkbox" name="activities">
+          <label for="online-publishing">Online publishing</label>
 
-        <input id="managing-people" type="checkbox" name="managing-people">
-        <label for="managing-people">Managing people</label>
+          <input id="managing-people" type="checkbox" name="activities">
+          <label for="managing-people">Managing people</label>
+        </div>
 
         <p>Do you have any experience with the following?</p>
 
-        <input id="shovels" type="checkbox" name="shovels">
-        <label for="shovels">Shovels</label>
+        <div class="gird">
+          <input id="shovels" type="checkbox" name="experience">
+          <label for="shovels">Shovels</label>
 
-        <input id="hand-held-GPS" type="checkbox" name="hand-held-GPS">
-        <label for="hand-held-GPS">Hand-held GPS</label>
+          <input id="hand-held-GPS" type="checkbox" name="experience">
+          <label for="hand-held-GPS">Hand-held GPS</label>
 
-        <input id="writing-&-blogging" type="checkbox" name="writing-&-blogging">
-        <label for="writing-&-blogging">Writing & blogging</label>
+          <input id="writing-&-blogging" type="checkbox" name="experience">
+          <label for="writing-&-blogging">Writing & blogging</label>
 
-        <input id="photography" type="checkbox" name="hotography">
-        <label for="photography">Photography</label>
+          <input id="photography" type="checkbox" name="experience">
+          <label for="photography">Photography</label>
 
-        <input id="trail-&-hill-climbing" type="checkbox" name="trail-&-hill-climbing">
-        <label for="trail-&-hill-climbing">Trail & hill climbing</label>
+          <input id="trail-&-hill-climbing" type="checkbox" name="experience">
+          <label for="trail-&-hill-climbing">Trail & hill climbing</label>
 
-        <input id="bush-craft" type="checkbox" name="bush-craft">
-        <label for="bush-craft">Bush craft</label>
+          <input id="bush-craft" type="checkbox" name="experience">
+          <label for="bush-craft">Bush craft</label>
 
-        <input id="ATVs" type="checkbox" name="ATVs">
-        <label for="ATVs">ATVs</label>
+          <input id="ATVs" type="checkbox" name="experience">
+          <label for="ATVs">ATVs</label>
 
-        <input id="plant-identification" type="checkbox" name="plant-identification">
-        <label for="plant-identification">Plant identification</label>
+          <input id="plant-identification" type="checkbox" name="experience">
+          <label for="plant-identification">Plant identification</label>
 
-        <input id="special-event-planning" type="checkbox" name="special-event-planning">
-        <label for="special-event-planning">Special event planning</label>
+          <input id="special-event-planning" type="checkbox" name="experience">
+          <label for="special-event-planning">Special event planning</label>
 
-        <input id="speaking-to-groups" type="checkbox" name="speaking-to-groups">
-        <label for="speaking-to-groups">Speaking to groups</label>
+          <input id="speaking-to-groups" type="checkbox" name="experience">
+          <label for="speaking-to-groups">Speaking to groups</label>
+        </div>
       </fieldset>
     </div>
 
     <div>
       <fieldset>
         <p>Do you have a valid driver’s license?</p>
-        <input id="yes" type="radio">
-        <label for="yes">Yes</label>
+        <input id="yes1" type="radio" name="license">
+        <label for="yes1">Yes</label>
 
-        <input id="no" type="radio">
-        <label for="no">No</label>
+        <input id="no1" type="radio" name="license">
+        <label for="no1">No</label>
 
         <p>Do you have a pick-up truck you’d be willing to use?</p>
-        <input id="yes" type="radio">
-        <label for="yes">Yes</label>
+        <input id="yes2" type="radio" name="truck">
+        <label for="yes2">Yes</label>
 
-        <input id="no" type="radio">
-        <label for="no">No</label>
+        <input id="no2" type="radio" name="truck">
+        <label for="no2">No</label>
 
         <p>Do you have up-to-date first-aid certification?</p>
-        <input id="yes" type="radio">
-        <label for="yes">Yes</label>
+        <input id="yes3" type="radio" name="first-aid">
+        <label for="yes3">Yes</label>
 
-        <input id="no" type="radio">
-        <label for="no">No</label>
+        <input id="no3" type="radio" name="first-aid">
+        <label for="no3">No</label>
 
         <div>
           <p>Please let us know any comments or questions you may have. (optional)</p>
