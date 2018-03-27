@@ -8,7 +8,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 
 <body>
@@ -19,26 +19,26 @@
         <p class="mega push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
-    <form class="wrapper gutter-1-2">
+    <form class="wrapper gutter-1-2" method="POST" action="https://formspree.io/thom0610@algonquinlive.com">
       <div>
         <fieldset>
           <legend class="push-1-2">Personal details</legend>
           <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-0">
               <label for="name">Full name</label>
               <input id="name" name="name" required>
               <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-0">
               <label for="nickname">What should we call you?</label>
               <input id="nickname" required>
               <p>What all your friends call you, e.g. “Liz”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
               <label for="date-of-birth">Date of birth</label>
               <input type="date" id="date-of-birth" name="date" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
               <label for="t-shirt-size">T-shirt size</label>
               <select id="t-shirt-size" name="t-shirt-size">
                 <option>Select a t-shirt size</option>
@@ -54,13 +54,13 @@
                 <option>Straight-cut: XL</option>
               </select>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
               <label for="phone-number">Phone number (optional)</label>
-              <input type="number" id="phone-number" name="phone-number">
+              <input type="tel" id="phone-number" name="phone-number">
             </div>
           </div>
         </fieldset>
@@ -71,18 +71,18 @@
       <fieldset>
         <legend>Address</legend>
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
             <label for="address">Street address</label>
             <input id="address" name="address" required>
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
             <label for="city">City</label>
             <input id="city" name="city">
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
             <label for="province">Province</label>
             <select id="province" name="province">
-              <option>Select a province</option>
+              <option value="">Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
               <option>Manitoba</option>
@@ -208,44 +208,43 @@
       </fieldset>
 
       <div>
-          <fieldset>
-            <legend class="push-1-4">Do you have a valid driver’s license?</legend>
-            <input id="yes1" type="radio" name="license">
-            <label for="yes1">Yes</label>
+        <fieldset>
+          <legend class="push-1-4">Do you have a valid driver’s license?</legend>
+          <input id="yes1" type="radio" name="license">
+          <label for="yes1">Yes</label>
 
-            <input id="no1" type="radio" name="license">
-            <label for="no1">No</label>
-          </fieldset>
-
-          <fieldset>
-            <legend class="push-1-4">Do you have a pick-up truck you’d be willing to use?</legend>
-            <input id="yes2" type="radio" name="truck">
-            <label for="yes2">Yes</label>
-
-            <input id="no2" type="radio" name="truck">
-            <label for="no2">No</label>
-          </fieldset>
-
-          <fieldset>
-            <legend class="push-1-4">Do you have up-to-date first-aid certification?</legend>
-            <input id="yes3" type="radio" name="first-aid">
-            <label for="yes3">Yes</label>
-
-            <input id="no3" type="radio" name="first-aid">
-            <label for="no3">No</label>
-          </fieldset>
-
-          <div>
-            <p>Please let us know any comments or questions you may have. (optional)</p>
-            <textarea id="comments" name="comments"></textarea>
-          </div>
+          <input id="no1" type="radio" name="license">
+          <label for="no1">No</label>
         </fieldset>
+
+        <fieldset>
+          <legend class="push-1-4">Do you have a pick-up truck you’d be willing to use?</legend>
+          <input id="yes2" type="radio" name="truck">
+          <label for="yes2">Yes</label>
+
+          <input id="no2" type="radio" name="truck">
+          <label for="no2">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend class="push-1-4">Do you have up-to-date first-aid certification?</legend>
+          <input id="yes3" type="radio" name="first-aid">
+          <label for="yes3">Yes</label>
+
+          <input id="no3" type="radio" name="first-aid">
+          <label for="no3">No</label>
+        </fieldset>
+
+        <div>
+          <label for="message">Please let us know any comments or questions you may have. (optional)</label>
+          <textarea id="message" name="comments"></textarea>
+        </div>
       </div>
 
       <div class="center-content-horizontal">
         <button class="btn btn-drk mega" type="submit">Apply</button>
       </div>
-      <input type="hidden" name="_subject" value="Volunteer Sign-up"
+      <input type="hidden" name="_subject" value="Volunteer Sign-up">
     </form>
 
     <footer>

@@ -1,3 +1,7 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
 label {
   display: block;
 }
@@ -10,4 +14,19 @@ footer {
 
 fieldset {
   border: none;
+}
+
+input,
+select,
+textarea {
+  border-color: #6e8c62;
+}
+
+[type="checkbox"] + label::before,
+[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: rgba(112, 173, 85, .3);
 }
