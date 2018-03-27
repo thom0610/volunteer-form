@@ -8,38 +8,38 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
 </head>
 
 <body>
   <section>
     <header class="push-2">
       <div class="wrapper gutter-1-2 pad-t pad-b">
-        <h1>Apply to be a tree planter</h1>
+        <h1 class="push-1-2 bold">Apply to be a tree planter</h1>
         <p class="mega push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
       </div>
     </header>
     <form class="wrapper gutter-1-2" method="POST" action="https://formspree.io/thom0610@algonquinlive.com">
       <div>
         <fieldset>
-          <legend class="push-1-2">Personal details</legend>
+          <legend class="push giga">Personal details</legend>
           <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-0">
-              <label for="name">Full name</label>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 pad-b-1-8">
+              <label class="push-1-8" for="name">Full name</label>
               <input id="name" name="name" required>
-              <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+              <p class="italic milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-0">
-              <label for="nickname">What should we call you?</label>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-0 pad-b-1-8">
+              <label class="push-1-8" for="nickname">What should we call you?</label>
               <input id="nickname" required>
-              <p>What all your friends call you, e.g. “Liz”.</p>
+              <p class="italic milli">What all your friends call you, e.g. “Liz”.</p>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
-              <label for="date-of-birth">Date of birth</label>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
+              <label class="push-1-8" for="date-of-birth">Date of birth</label>
               <input type="date" id="date-of-birth" name="date" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
-              <label for="t-shirt-size">T-shirt size</label>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
+              <label class="push-1-8" for="t-shirt-size">T-shirt size</label>
               <select id="t-shirt-size" name="t-shirt-size">
                 <option>Select a t-shirt size</option>
                 <option value="size-xs">Fitted: XS</option>
@@ -54,11 +54,11 @@
                 <option>Straight-cut: XL</option>
               </select>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
               <label for="email">Email</label>
               <input type="email" id="email" name="email" required>
             </div>
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
               <label for="phone-number">Phone number (optional)</label>
               <input type="tel" id="phone-number" name="phone-number">
             </div>
@@ -69,17 +69,17 @@
       <hr>
 
       <fieldset>
-        <legend>Address</legend>
+        <legend class="giga">Address</legend>
         <div class="grid">
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
             <label for="address">Street address</label>
             <input id="address" name="address" required>
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
             <label for="city">City</label>
             <input id="city" name="city">
           </div>
-          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push">
+          <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push pad-b-1-8">
             <label for="province">Province</label>
             <select id="province" name="province">
               <option value="">Select a province</option>
@@ -106,7 +106,7 @@
       </fieldset>
 
       <fieldset>
-        <legend class="push-1-2">What activities are you interested in helping with?</legend>
+        <legend class="push-1-2 giga">What activities are you interested in helping with?</legend>
         <div class="grid">
           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-1-4">
             <input id="digging-holes" type="checkbox" name="activities">
@@ -151,7 +151,7 @@
       </fieldset>
 
       <fieldset>
-        <legend class="push-1-2">Do you have any experience with the following?</legend>
+        <legend class="push-1-2 giga">Do you have any experience with the following?</legend>
 
         <div class="grid">
           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 push-1-4 push-1-4">
@@ -209,7 +209,7 @@
 
       <div>
         <fieldset>
-          <legend class="push-1-4">Do you have a valid driver’s license?</legend>
+          <legend class="push-1-4 giga">Do you have a valid driver’s license?</legend>
           <input id="yes1" type="radio" name="license">
           <label for="yes1">Yes</label>
 
@@ -218,7 +218,7 @@
         </fieldset>
 
         <fieldset>
-          <legend class="push-1-4">Do you have a pick-up truck you’d be willing to use?</legend>
+          <legend class="push-1-4 giga">Do you have a pick-up truck you’d be willing to use?</legend>
           <input id="yes2" type="radio" name="truck">
           <label for="yes2">Yes</label>
 
@@ -227,7 +227,7 @@
         </fieldset>
 
         <fieldset>
-          <legend class="push-1-4">Do you have up-to-date first-aid certification?</legend>
+          <legend class="push-1-4 giga">Do you have up-to-date first-aid certification?</legend>
           <input id="yes3" type="radio" name="first-aid">
           <label for="yes3">Yes</label>
 
@@ -235,8 +235,8 @@
           <label for="no3">No</label>
         </fieldset>
 
-        <div>
-          <label for="message">Please let us know any comments or questions you may have. (optional)</label>
+        <div class="giga">
+          <label for="message">Please let us know any comments or questions you may have. <span class="italic">(optional)</span></label>
           <textarea id="message" name="comments"></textarea>
         </div>
       </div>
